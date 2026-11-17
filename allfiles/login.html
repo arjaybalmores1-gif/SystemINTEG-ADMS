@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign in | Student Management System</title>
+<link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="manifest" href="/SystemINTEG-ADMS/site.webmanifest">
+<meta name="theme-color" content="#1ABB9C" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1a2332" media="(prefers-color-scheme: dark)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="/SystemINTEG-ADMS/images/apple-touch-icon.svg">
+<meta name="description" content="Gentelella v4 — free admin dashboard template. 60 pages, 20 chart variants, vanilla JS, no Bootstrap, no jQuery. By Colorlib.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sign in">
+<meta property="og:description" content="Gentelella v4 — free admin dashboard template. 60 pages, 20 chart variants, vanilla JS, no Bootstrap, no jQuery. By Colorlib.">
+<meta property="og:image" content="/SystemINTEG-ADMS/images/android-chrome-512x512.svg">
+<meta property="og:site_name" content="Gentelella v4">
+<meta name="twitter:card" content="summary_large_image">
+<script>(function(){try{var t=localStorage.getItem('theme');var d=window.matchMedia('(prefers-color-scheme: dark)').matches;var theme=t||(d?'dark':'light');document.documentElement.setAttribute('data-theme',theme);var dir=localStorage.getItem('dir');if(dir==='rtl'||dir==='ltr'){document.documentElement.setAttribute('dir',dir);}}catch(e){}})();</script>
+  <script type="module" crossorigin src="/SystemINTEG-ADMS/js/rolldown-runtime-_5RX-BWT.js"></script>
+  <script type="module" crossorigin src="/SystemINTEG-ADMS/js/toast-CBtjS_PZ.js"></script>
+  <script type="module" crossorigin src="/SystemINTEG-ADMS/js/main-v4-5cBbCq9P.js"></script>
+  <link rel="stylesheet" crossorigin href="/SystemINTEG-ADMS/assets/main-v4-DB_ReeJG.css">
+</head>
+<body>
+
+<div class="auth-page">
+  <div class="auth-card">
+    <div class="auth-brand">
+      <div class="brand-icon">S</div>
+      <div class="brand-name">SMS <small style="font-weight:400;color:var(--text-muted);font-size:13px;margin-left:2px">Student Management</small></div>
+    </div>
+
+    <div class="auth-title">Welcome back</div>
+    <div class="auth-subtitle">Sign in to continue to your dashboard.</div>
+
+    <form method="POST" action="page1.php">
+      <div class="form-group">
+        <label class="form-label" for="username">Username</label>
+        <div class="input-group">
+          <svg class="input-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 8a3 3 0 100-6 3 3 0 000 6z"/><path d="M2 14a6 6 0 0112 0"/></svg>
+          <input type="text" id="username" name="txtUsername" class="form-control" placeholder="Enter username" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="password">Password</label>
+        <div class="input-group">
+          <svg class="input-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="7" width="10" height="7" rx="1.5"/><path d="M5 7V5a3 3 0 016 0v2"/></svg>
+          <input type="password" id="password" name="txtPassword" class="form-control" placeholder="••••••••" required>
+        </div>
+      </div>
+
+      <div class="auth-actions">
+        <label class="form-check">
+          <input type="checkbox" name="rememberMe"> Remember me
+        </label>
+      </div>
+
+      <button type="submit" name="btnLogin" class="btn btn-primary" style="width:100%;justify-content:center;height:38px">
+        Sign in
+      </button>
+    </form>
+
+    <div class="auth-footer" style="margin-top:20px;text-align:center;font-size:12.5px;color:var(--text-muted)">
+      Student Management System &copy; 2026
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

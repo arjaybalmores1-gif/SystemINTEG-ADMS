@@ -1,0 +1,24 @@
+
+# Node dependencies
+node_modules/
+
+# Environment and sensitive files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Local database backups
+*.sql
+*.sql.zip
+
+# PHP temporary files
+/cache/
+/tmp/
+
+# Exclude password setup script
+production/setup.php
